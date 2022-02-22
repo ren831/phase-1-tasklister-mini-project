@@ -1,3 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
-  // your code here
+document.addEventListener("DOMContentloaded", () => {
+  document
+    .querySelector("#create-task-form")
+    .addEventListener("submit", (e) => {
+      e.preventdefault();
+    });
 });
